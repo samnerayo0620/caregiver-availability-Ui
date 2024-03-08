@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  padding: 10px;
+  position: relative;
+}
+
+#lego-img-top-left {
+  max-width: 100px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+ 
+  border-radius: 4px; /* Rounded corners */
+  background-color: white; /* Lego red white, you can change it */
+  padding: 5px;
+}
+
+
+
+#lego-img-centered {
+  max-width: 60%; /* Adjust the size as needed */
+
+
+  display: block;
+  margin: 20px auto; /* Centered horizontally with top margin */
+  border-radius: 4px; /* Rounded corners */
+  background-color: white; /* Lego red white, you can change it */
+  padding: 10px;
+}
+
+.main-content {
+  margin-top: 150px;
+}
+
+#enter-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #4CAF50; /* Green color, you can change it */
+  color: #fff; /* White text */
+  border-radius: 5px;
+}
